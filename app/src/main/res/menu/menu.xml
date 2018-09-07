@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_paired_devices"
+        app:showAsAction="never"
+        android:title="Show Paired Devices"/>
+    <item
+        android:id="@+id/discover"
+        app:showAsAction="never"
+        android:title="Start Discover"/>
+    <item
+        android:id="@+id/discover_stop"
+        app:showAsAction="never"
+        android:title="Stop Discover"/>
+    <item
+        android:id="@+id/send_test_nearby"
+        app:showAsAction="never"
+        android:title="Send test nearby"/>
+    <item
+        android:id="@+id/start_bt_server"
+        app:showAsAction="never"
+        android:title="Start BT server"/>
+    <item
+        android:id="@+id/stop_bt_server"
+        app:showAsAction="never"
+        android:title="Stop BT server"/>
+    <item
+        android:id="@+id/start_bt_client"
+        app:showAsAction="never"
+        android:title="Start BT client"/>
+    <item
+        android:id="@+id/stop_bt_client"
+        app:showAsAction="never"
+        android:title="Stop BT client"/>
+</menu>
